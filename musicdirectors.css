@@ -125,3 +125,63 @@ img {
   .content1 h2 {
     color: #7f9ead;
   }
+  ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(237, 231, 231);
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition:0.5 ease;
+}
+ul li a:hover{
+    color: #303434;
+   background-color:rgb(167, 180, 233);
+}
+ul li.active a{
+    background-color: #9bc4d9;
+    color:rgb(17, 16, 16);
+}
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+  
+}
+.sub-menu ul{
+    position: absolute;
+}
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: #aba7a7;
+    margin-top: 12px;
+    margin-left: -8px;
+}
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.main ul li:hover .sub-menu ul li{
+    width: 115px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    transition: 0.4s ease;
+    text-align: left;
+    border-radius: 0px;
+}
+
+.menu_left{
+    padding: 20px;
+    text-align: center;
+    transition:transform 0.3s ease; 
+}
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+.main:last-child{
+  margin-right:0;
+}
