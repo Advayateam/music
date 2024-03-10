@@ -173,11 +173,6 @@ ul li.active a{
     border-radius: 0px;
 }
 
-.menu_left{
-    padding: 20px;
-    text-align: center;
-    transition:transform 0.3s ease; 
-}
 .main{
     max-width:1200px;
     margin:auto;
