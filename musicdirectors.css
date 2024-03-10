@@ -32,6 +32,7 @@ body{
   background: #a9b0b1;
   cursor: pointer;
   margin-right: 30px;
+  margin-top:60px;
 }
 
 .card:hover {
@@ -69,7 +70,7 @@ img {
   color: #3a85ab;
 }
 .header1 {
-  height: 80vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
